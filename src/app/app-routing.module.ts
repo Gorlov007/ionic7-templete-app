@@ -34,6 +34,7 @@ import { KanbanComponent } from './kanban/kanban.component';
 import { FileViewerComponent } from './file-viewer/file-viewer.component';
 import { DragAndDropComponent } from './drag-and-drop/drag-and-drop.component'
 import { WaterTrackerComponent } from './water-tracker/water-tracker.component';
+import { AlertdashComponent } from './alertdash/alertdash.component'
 
 const routes: Routes = [
   {
@@ -178,6 +179,10 @@ const routes: Routes = [
   {
     path: 'drag-and-drop',
   component: DragAndDropComponent
+  },
+  {
+    path: 'alertdash',
+    component: AlertdashComponent
   },
   {
     path: '**',
